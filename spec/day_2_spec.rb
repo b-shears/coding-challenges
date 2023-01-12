@@ -1,7 +1,7 @@
 require_relative '../lib/day_2'
 require "pry"
 RSpec.describe RockPaperScissors do 
-    it "exists and has attrubutes" do 
+    it "exists and has attributes" do 
        
         data = RockPaperScissors.new("../lib/day2.txt")
        
