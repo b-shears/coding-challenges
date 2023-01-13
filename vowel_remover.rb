@@ -14,7 +14,7 @@ class VowelRemover
         vowel = "aeiou"
         str.chars.each do |char| 
             unless vowel.include?(char.downcase) 
-            result << char 
+                result << char 
             end
         end 
         return result
