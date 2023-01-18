@@ -14,9 +14,9 @@
 
 
 def trim(string, size)
-  string_count = string.chars.count
-  result = ""
-  string.chars.each_with_index do |char, index|
+    string_count = string.chars.count
+    result = ""
+    string.chars.each_with_index do |char, index|
         if size >= string_count 
             string
         elsif string_count < 3 && index < size
