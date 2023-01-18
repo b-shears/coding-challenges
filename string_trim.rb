@@ -29,9 +29,9 @@ def trim(string, size)
             result << ""
             result << "..."
         end 
-    end
-  end.join
-end 
+    end.join
+end
+
     
 
 
